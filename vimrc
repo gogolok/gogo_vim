@@ -1,8 +1,9 @@
 set nocompatible
 
+let mapleader=","
+
 syntax enable
 filetype plugin indent on
-
 
 set t_Co=256
 let g:solarized_termcolors=256
@@ -15,6 +16,8 @@ set sw=2
 set ts=2
 set sts=2
 
+" highlight current line
+set cursorline
 
 set hlsearch
 set ruler
