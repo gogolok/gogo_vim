@@ -35,3 +35,5 @@ set ignorecase
 " Folding
 map <F2> :set foldmethod=marker <CR> zM 
 map <F3> :set foldmethod=manual <CR> zR 
+
+set colorcolumn=80
